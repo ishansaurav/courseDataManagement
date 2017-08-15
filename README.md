@@ -19,6 +19,7 @@ mvn spring-boot:run
 
 ### Request
 
+/getCourse/{software}:
 `POST` `http://localhost:8080/getCourse/xero`
 
 ### Response
@@ -45,7 +46,7 @@ mvn spring-boot:run
    ]
 }
 ```
-
+/enrollStudent/{software}/{studentId}:
 `POST` `http://localhost:8080/enrollStudent/myob/3`
 
 ### Response
