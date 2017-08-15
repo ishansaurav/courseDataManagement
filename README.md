@@ -1,4 +1,4 @@
-# Generalizer Proof-of-Concept
+# Course Data Management
 
 ## Requirements
 
@@ -8,7 +8,7 @@
 ## Setup
 
 ```bash
-mvn package
+mvn clean package
 ```
 
 ## Usage
@@ -19,13 +19,10 @@ mvn spring-boot:run
 
 ### Request
 
-`POST` `http://localhost:8080/generalize`
+`POST` `http://localhost:8080/getCourse/xero`
 
-```json
-{
-    "text":"McDonalds is awesome"
-}
-```
+`POST` `http://localhost:8080/enrollStudent/myob/3`
+
 
 ### Response
 
